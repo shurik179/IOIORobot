@@ -19,7 +19,7 @@ public class IOIOThread extends BaseIOIOLooper {
     private Sonar leftSonar, rightSonar;
     public MainActivity parent;
     boolean heartBeat=false; //used for built-in LED, as heartbeat
-    enum Mode {STOP, GO, OBSTACLE_RIGHT, OBSTACLE_LEFT};
+    enum Mode {STOP, GO, OBSTACLE_RIGHT, OBSTACLE_LEFT}
     Mode mode;
     Gps gps;
     Compass compass;
